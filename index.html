@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,8 +11,14 @@
         <span>Item count: <span id="item-count">0</span></span>
         <span>Unchecked count: <span id="unchecked-count">0</span></span>
       </div>
-      <button class="button center" onClick="newTodo()">New TODO</button>
+      <form class="add-todo">
+      <input type="text" id="todo-text" name="newTodo">
+      <button class="button center" id="btn">New TODO</button>
+ 
+      </form>
       <ul id="todo-list" class="todo-list"></ul>
+ 
+     
     </div>
     <script src="./script.js"></script>
   </body>
